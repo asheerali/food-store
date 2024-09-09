@@ -1,14 +1,16 @@
+import logoImg from "../assets/logo.jpg";
+
 const Header = () => {
   return (
-    <div>
-      <img src="" alt="" />
-      <h1></h1>
-      <div>
-        <nav>
-          <button> Cart (0)</button>
-        </nav>
+    <header id="main-header">
+      <div id="title">
+        <img src={logoImg} alt="a resturant" />
+        <h1>Fooders</h1>
       </div>
-    </div>
+      <nav>
+        <button> Cart (0)</button>
+      </nav>
+    </header>
   );
 };
 
