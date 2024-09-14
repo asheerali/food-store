@@ -21,4 +21,5 @@ const MealItem = ({ meal }) => {
   );
 };
 
+
 export default MealItem;
