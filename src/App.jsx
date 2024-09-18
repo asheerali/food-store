@@ -1,15 +1,18 @@
 import Header from "./componenets/Header";
 import Meals from "./componenets/Meals";
+import { CartContextProvider } from "./store/CartContext";
 
 function App() {
   return (
     <>
-      <Header />
-      <Meals />
-      {/* <Header /> */}
+      //{" "}
+      <CartContextProvider> 
+        <Header />
+        <Meals />
+        //{" "}
+      </CartContextProvider>
     </>
   );
 }
-
 
 export default App;
